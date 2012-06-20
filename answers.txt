@@ -1,0 +1,26 @@
+Part 1
+Q 1
+ if x = 2 and y = 5,		output = x is 2
+ if x = 3 and y = 1,		output = nothing
+ if x = 1 and y = 1, 		output = x is 1
+ if x = 4 and y = 3, 		output = z is 7
+
+Q 2
+if x = 3 and y = 5,		y = 1
+if x = 2 and y = 5,		y = 1
+
+Q 3
+the code outputs 
+	2
+	4
+	6
+	8
+	10	
+and its run through the loop body 10 times
+
+Q 4
+the loop is skipped because the initial value of 'i' does not 
+satisfy the condition stated
+
+
+
