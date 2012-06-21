@@ -41,26 +41,22 @@ print "while loop that prints out all the multiples of 3 down from 40 to 0 in de
 i = 40
 while (i > -1):
      if (i % 3 == 0):
-          if(i == 0):
-               print i
-          print i,","
+          print i,",",
      i = i-1
 
 
-
-print "------------------------------------------------------"
+print "\n\n------------------------------------------------------"
 
 # Question 8
 print "Write a loop that prints out all numbers between \n6 and 30 that are not divisible by 2, 3, or 5.\n"
-i = 6
-while (i <30):
+
+for i in range(6,30):
      if (i % 2 != 0):
           if(i % 3 != 0):
                if (i % 5!= 0):
-                    print i
-     i = i +1
+                       print i , ", ",
 
-print "---------------------------------------------------------"
+print "\n\n---------------------------------------------------------"
 
 # Question 9
 
@@ -73,4 +69,4 @@ while (n):
      
      n = n + 1
 
-print "----------------------------------------------------------"
+print "\n\n----------------------------------------------------------"
